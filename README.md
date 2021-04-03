@@ -47,7 +47,9 @@ Copia y pega la siguiente estructura para crear un carrusel con un banner:
 
 **`m-carousel`** crea un carrusel.
 
-**&rsaquo; `m-carousel--small`** reduce la altura del carrusel y ajusta sus elementos.
+**&rsaquo; `--small`** reduce la altura del carrusel y ajusta sus elementos.
+
+**&rsaquo; `--debug`** habilita el modo debug.
 
 ------------
 
@@ -65,7 +67,7 @@ Copia y pega la siguiente estructura para crear un carrusel con un banner:
 
 * Debe ser iniciado dentro de un `m-carousel__banner` como hijo inmediato.
 
-**&rsaquo; `m-carousel__block--hero`** modifica un bloque para la inclusión exclusiva de *copys* primarios y secundarios.
+**&rsaquo; `--hero`** modifica un bloque para la inclusión exclusiva de *copys* primarios y secundarios.
 
 * Dentro deben crearse únicamente `m-carousel__text` hasta un máximo de dos.
 
@@ -92,7 +94,7 @@ Copia y pega la siguiente estructura para crear un carrusel con un banner:
 </div>
 ```
 
-**&rsaquo; `m-carousel__block--buttons`** modifica un bloque para la inclusión exclusiva de botones.
+**&rsaquo; `--buttons`** modifica un bloque para la inclusión exclusiva de botones.
 
 ------------
 
@@ -100,6 +102,6 @@ Copia y pega la siguiente estructura para crear un carrusel con un banner:
 
 **`m-carousel__text`** inicia un texto.
 
-**&rsaquo; `m-carousel__block--hero`** modifica un bloque para la inclusión exclusiva de *copys* primarios y secundarios.
+**&rsaquo; `--hero`** modifica un bloque para la inclusión exclusiva de *copys* primarios y secundarios.
 
-**&rsaquo; `m-carousel__block--buttons`** modifica un bloque para la inclusión exclusiva de botones.
+**&rsaquo; `--buttons`** modifica un bloque para la inclusión exclusiva de botones.
