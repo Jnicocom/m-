@@ -34,7 +34,7 @@ Copia y pega la siguiente estructura para crear un carrusel con un banner:
 ------------
 ### Elementos de un carrusel
 
-#### Carousel
+### Carousel
 
 `m-carousel`
 
@@ -46,17 +46,16 @@ Reduce la altura del carrusel y ajusta sus elementos.
 
 ------------
 
-#### Banner
+### Banner
 
 `m-carousel__banner`
-
-**Inicia** un banner.
+Inicia un banner.
 
 * Debe ser iniciado dentro de un `m-carousel` como hijo inmediato.
 
 ------------
 
-#### Bloque
+### Bloque
 
 `m-carousel__block`
 
