@@ -1,1 +1,88 @@
-# m-
+m- es una librería CSS/JS que facilita la maquetación de contenidos en la web de Movistar Colombia.
+
+# Carrusel
+
+Copia y pega la siguiente estructura para crear un carrusel con un banner:
+
+```html
+<div class="m-carousel">
+    <div class="m-carousel__banner">
+        <div class="m-carousel__block m-carousel__block--hero">
+            <div class="m-carousel__text">
+                Ingresa el copy secundario del banner
+            </div>
+            <div class="m-carousel__text">
+                Ingresa el copy primario del banner y usa br <br>
+                para añadir saltos de línea
+            </div>
+            <div class="m-carousel__block">
+                <img class="m-carousel__bullet" src="" alt="">
+            </div>
+            <div class="m-carousel__block">
+                <div class="m-carousel__block">
+                    <a class="m-carousel__button">Botón 1</a>
+                    <a class="m-carousel__button">Botón 2</a>
+                </div>
+                <span class="m-carousel__text m-carousel__text--extra-small">
+                    Aplican términos y condiciones
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+```
+------------
+### Elementos de un carrusel
+
+`m-carousel` &rsaquo; **Inicia** un carrusel.
+
+`m-carousel--small` -- Reduce la altura del carrusel y ajusta sus elementos.
+
+------------
+
+#### Banner
+
+`m-carousel__banner` &rsaquo; **Inicia** un banner.
+* Debe ser iniciado dentro de un `m-carousel` como hijo inmediato.
+
+------------
+
+#### Bloque
+
+`m-carousel__block` &rsaquo; **Inicia** un bloque.
+* Debe ser iniciado dentro de un `m-carousel__banner` como hijo inmediato.
+
+`m-carousel__block--hero` -- Define un bloque para la inclusión exclusiva de *copys* primarios y secundarios.
+* Si existe un único `m-carousel__text` este será el copy primario.
+```html
+<div class="m-carousel__block">
+  <div class="m-carousel__text">
+      Copy primario
+  </div>
+</div>
+```
+
+* Si existen dos `m-carousel__text` el primero será el copy secundario y el segundo el primario.
+
+```html
+<div class="m-carousel__block">
+  <div class="m-carousel__text">
+      Copy secundario
+  </div>
+  <div class="m-carousel__text">
+      Copy primario
+  </div>
+</div>
+```
+
+`m-carousel__block--buttons` -- Define un bloque para la inclusión exclusiva de botones.
+
+------------
+
+#### Text
+
+`m-carousel__text` &rsaquo; **Inicia** un texto.
+
+`m-carousel__block--hero` -- Define un bloque para la inclusión exclusiva de *copys* primarios y secundarios.
+
+`m-carousel__block--buttons` -- Define un bloque para la inclusión exclusiva de botones.
