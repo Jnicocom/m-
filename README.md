@@ -36,20 +36,15 @@ Copia y pega la siguiente estructura para crear un carrusel con un banner:
 
 ### Carousel
 
-`m-carousel`
+`m-carousel` crea un carrusel.
 
-**Inicia** un carrusel.
-
-`m-carousel--small`
-
-Reduce la altura del carrusel y ajusta sus elementos.
+`m-carousel--small` reduce la altura del carrusel y ajusta sus elementos.
 
 ------------
 
 ### Banner
 
-`m-carousel__banner`
-Inicia un banner.
+`m-carousel__banner` crea un banner.
 
 * Debe ser iniciado dentro de un `m-carousel` como hijo inmediato.
 
@@ -57,15 +52,13 @@ Inicia un banner.
 
 ### Bloque
 
-`m-carousel__block`
-
-**Inicia** un bloque.
+`m-carousel__block` crea un bloque.
 
 * Debe ser iniciado dentro de un `m-carousel__banner` como hijo inmediato.
 
-`m-carousel__block--hero`
+`m-carousel__block--hero` modifica un bloque para la inclusión exclusiva de *copys* primarios y secundarios.
 
-Define un bloque para la inclusión exclusiva de *copys* primarios y secundarios.
+* Dentro deben crearse únicamente `m-carousel__text` hasta un máximo de dos.
 
 * Si existe un único `m-carousel__text` este será el copy primario.
 
@@ -90,22 +83,14 @@ Define un bloque para la inclusión exclusiva de *copys* primarios y secundarios
 </div>
 ```
 
-`m-carousel__block--buttons`
-
-Define un bloque para la inclusión exclusiva de botones.
+`m-carousel__block--buttons` modifica un bloque para la inclusión exclusiva de botones.
 
 ------------
 
 #### Text
 
-`m-carousel__text`
+`m-carousel__text` inicia un texto.
 
-**Inicia** un texto.
+`m-carousel__block--hero` modifica un bloque para la inclusión exclusiva de *copys* primarios y secundarios.
 
-`m-carousel__block--hero`
-
-Define un bloque para la inclusión exclusiva de *copys* primarios y secundarios.
-
-`m-carousel__block--buttons`
-
-Define un bloque para la inclusión exclusiva de botones.
+`m-carousel__block--buttons` modifica un bloque para la inclusión exclusiva de botones.
