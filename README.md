@@ -61,7 +61,7 @@ Copia y pega la siguiente estructura para crear un carrusel e incluir un banner:
 
 ------------
 
-### Banner
+### Banner (carousel)
 
 **`m-carousel__banner`** crea un banner.
 
@@ -69,7 +69,7 @@ Copia y pega la siguiente estructura para crear un carrusel e incluir un banner:
 
 ------------
 
-### Bloque
+### Block (carousel)
 
 **&rsaquo; `m-carousel__block`** crea un bloque.
 
@@ -108,7 +108,7 @@ Copia y pega la siguiente estructura para crear un carrusel e incluir un banner:
 
 ------------
 
-### Text
+### Text (carousel)
 
 **&rsaquo; `m-carousel__text`** crea un texto.
 
@@ -134,7 +134,7 @@ Copia y pega la siguiente estructura para crear un carrusel e incluir un banner:
 
 ------------
 
-### Bullet
+### Bullet (carousel)
 
 **&rsaquo; `m-carousel__bullet`** crea un bullet.
 
@@ -152,7 +152,7 @@ Copia y pega la siguiente estructura para crear un carrusel e incluir un banner:
 
 ------------
 
-### Button
+### Button (carousel)
 
 **&rsaquo; `m-carousel__button`** crea un botón.
 
