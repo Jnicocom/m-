@@ -182,23 +182,23 @@ Usa la siguiente estructura para crear un carrusel e incluir un banner:
 
 ##### Tamaño
 
-**&rsaquo; `--smaller`** reduce el tamaño de la letra al máximo.
+**&rsaquo; `--smaller`** reduce el tamaño del texto al máximo.
 
-**&rsaquo; `--small`** reduce el tamaño de la letra.
+**&rsaquo; `--small`** reduce el tamaño del texto.
 
-**&rsaquo; `--medium`** aumenta el tamaño de la letra.
+**&rsaquo; `--medium`** aumenta el tamaño del texto.
 
-**&rsaquo; `--large`** aumenta el tamaño de la letra.
+**&rsaquo; `--large`** aumenta el tamaño del texto.
 
-**&rsaquo; `--larger`** aumenta el tamaño de la letra al máximo.
+**&rsaquo; `--larger`** aumenta el tamaño del texto al máximo.
 
 ##### Peso (grosor)
 
-**&rsaquo; `--lighter`** reduce el peso de la letra al máximo.
+**&rsaquo; `--lighter`** reduce el peso del texto al máximo.
 
-**&rsaquo; `--normal`** aumenta el peso de la letra.
+**&rsaquo; `--normal`** aumenta el peso del texto.
 
-**&rsaquo; `--bold`** aumenta el peso de la letra al máximo.
+**&rsaquo; `--bold`** aumenta el peso del texto al máximo.
 
 ------------
 
