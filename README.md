@@ -30,9 +30,9 @@ Luego, asigna el atributo `data-category` al padre inmediato `--buttons` del bot
 
 **&rsaquo; `m-button`** crea un botón.
 
-* <ins>Debe</ins> crearse usando la etiqueta `<div>` como hijo inmediato de un `--buttons` con el atributo `data-category`.
+ - [x] <ins>Debe</ins> crearse usando la etiqueta `<div>` como hijo inmediato de un `--buttons` con el atributo `data-category`.
 
-* <ins>Debe</ins> asignarse el atributo `data-url` que define la ruta a la que dirige el botón.
+- [x] <ins>Debe</ins> asignarse el atributo `data-url` que define la ruta a la que dirige el botón.
 
 * <ins>Debe</ins> asignarse el atributo `data-label` que define el label y el action del dataLayer.
 
