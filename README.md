@@ -148,9 +148,9 @@ Copia y pega la siguiente estructura para crear un carrusel e incluir un banner:
 
 ##### Posición
 
-**&rsaquo; `--right`** desplaza la imagen hacia la derecha.
+**&rsaquo; `--start`** desplaza la imagen hacia la izquierda.
 
-**&rsaquo; `--left`** desplaza la imagen hacia la izquierda.
+**&rsaquo; `--end`** desplaza la imagen hacia la derecha.
 
 ------------
 
@@ -162,4 +162,12 @@ Copia y pega la siguiente estructura para crear un carrusel e incluir un banner:
 
 ##### Color
 
-**&rsaquo; `--white`** modifica el color del botón a blanco con letra azul oscuro.
+**&rsaquo; `--white`** modifica el fondo del botón a blanco con letra azul oscuro.
+
+**&rsaquo; `--white-2`** modifica el fondo del botón a blanco con letra y borde azul oscuro.
+
+**&rsaquo; `--white-3`** modifica el fondo del botón a blanco con letra y borde azul claro.
+
+**&rsaquo; `--sky-blue`** modifica el fondo del botón a azul claro con letra blanca.
+
+**&rsaquo; `--sky-blue-2`** modifica el fondo del botón a azul claro con letra y borde blanco.
