@@ -30,11 +30,11 @@ Luego, asigna el atributo `data-category` al padre inmediato `--buttons` del bot
 
 **&rsaquo; `m-button`** crea un botón.
 
-* **Debe** crearse usando la etiqueta `<div>` como hijo inmediato de un `--buttons` con el atributo `data-category`.
+* <ins>Debe</ins> crearse usando la etiqueta `<div>` como hijo inmediato de un `--buttons` con el atributo `data-category`.
 
-* **Debe** asignarse el atributo `data-url` que define la ruta a la que dirige el botón.
+* <ins>Debe</ins> asignarse el atributo `data-url` que define la ruta a la que dirige el botón.
 
-* **Debe** asignarse el atributo `data-label` que define el label y el action del dataLayer.
+* <ins>Debe</ins> asignarse el atributo `data-label` que define el label y el action del dataLayer.
 
 * Puede asignarse el atributo `data-target` que define cómo será cargada la página al dar clic. `_self` por defecto.
 
@@ -100,7 +100,7 @@ Copia y pega la siguiente estructura para crear un carrusel e incluir un banner:
 
 **&rsaquo; `m-carousel`** crea un carrusel.
 
-* **Debe** contener exclusivamente `m-carousel__banner`.
+* <ins>Debe</ins> contener exclusivamente `m-carousel__banner`.
 
 ##### Tamaño
 
@@ -116,7 +116,7 @@ Copia y pega la siguiente estructura para crear un carrusel e incluir un banner:
 
 **`m-carousel__banner`** crea un banner.
 
-* **Debe** crearse como hijo inmediado de un `m-carousel`.
+* <ins>Debe</ins> crearse como hijo inmediado de un `m-carousel`.
 
 ------------
 
@@ -124,13 +124,13 @@ Copia y pega la siguiente estructura para crear un carrusel e incluir un banner:
 
 **&rsaquo; `m-carousel__block`** crea un bloque.
 
-* **Debe** crearse como hijo inmediado de un `m-carousel__banner`.
+* <ins>Debe</ins> crearse como hijo inmediado de un `m-carousel__banner`.
 
 ##### Plantilla
 
 **&rsaquo; `--hero`** modifica el bloque para la inclusión exclusiva de copys primarios y secundarios.
 
-* **Debe** contener únicamente `m-carousel__text` hasta un máximo de dos.
+* <ins>Debe</ins> contener únicamente `m-carousel__text` hasta un máximo de dos.
 
 > Si existe un único `m-carousel__text` este será el copy primario.
 
@@ -191,7 +191,7 @@ Copia y pega la siguiente estructura para crear un carrusel e incluir un banner:
 
 **&rsaquo; `m-carousel__bullet`** crea un bullet.
 
-* **Debe** crearse usando la etiqueta `<img>`.
+* <ins>Debe</ins> crearse usando la etiqueta `<img>`.
 
 ##### Tamaño
 
