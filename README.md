@@ -1,5 +1,23 @@
 **m-** es una librería CSS/JS que facilita la maquetación de contenidos para la web de Movistar Colombia.
 
+# Botón
+
+Copia y pega la siguiente estructura para crear un botón:
+
+```html
+<div class="m-button" data-url="https://www.movistar.co" data-target="_self" data-label="Botón [ingresa el texto del botón]">
+    Ingresa el texto del botón
+</div>
+```
+
+Luego, asigna el atributo `data-category` al padre inmediato `--buttons` del botón, por ejemplo:
+
+```html
+<div class="m-carousel__block --buttons" data-category="movistarco - home - carrusel">
+    //m-button
+</div>
+```
+
 # Carrusel
 
 Copia y pega la siguiente estructura para crear un carrusel e incluir un banner:
@@ -160,7 +178,7 @@ Copia y pega la siguiente estructura para crear un carrusel e incluir un banner:
 
 * Debe crearse usando la etiqueta `<a>`.
 
-##### Color
+##### Estilo
 
 **&rsaquo; `--white`** modifica el fondo del botón a blanco con letra azul oscuro.
 
