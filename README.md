@@ -106,6 +106,8 @@ Copia y pega la siguiente estructura para crear un carrusel e incluir un banner:
 
 **&rsaquo; `--buttons`** modifica el bloque para la inclusión exclusiva de botones.
 
+* Debe contener únicamente `m-carousel__button` hasta un máximo de dos.
+
 ------------
 
 ### Text (carousel)
