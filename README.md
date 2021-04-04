@@ -37,11 +37,11 @@ Copia y pega la siguiente estructura para crear un carrusel e incluir un banner:
 | Nombre | Clase |
 | :------------ | :------------ |
 | [Carousel](#carousel "Carousel") | m-carousel |
-| [Banner](#banner "Banner") | m-carousel__banner |
-| [Block](#block "Block") | m-carousel__block |
-| [Text](#text "Text") | m-carousel__text |
-| [Bullet](http://#bullet "Bullet") | m-carosule__bullet |
-| [Button](#button "Button") | m-carousel__button |
+| [Banner](#banner-carousel "Banner") | m-carousel__banner |
+| [Block](#block-carousel "Block") | m-carousel__block |
+| [Text](#text-carousel "Text") | m-carousel__text |
+| [Bullet](#bullet-carousel "Bullet") | m-carosule__bullet |
+| [Button](#button-carousel "Button") | m-carousel__button |
 
 ------------
 
