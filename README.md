@@ -200,6 +200,12 @@ Usa la siguiente estructura para crear un carrusel e incluir un banner:
 
 **&rsaquo; `--bold`** aumenta el peso del texto al máximo.
 
+##### Alineación
+
+**&rsaquo; `--right`** alinea el texto a la derecha.
+
+**&rsaquo; `--left`** alinea el texto a la izquierda.
+
 ------------
 
 ### Bullet (carousel)
@@ -214,6 +220,6 @@ Usa la siguiente estructura para crear un carrusel e incluir un banner:
 
 ##### Posición
 
-**&rsaquo; `--start`** desplaza la imagen hacia la izquierda.
+**&rsaquo; `--end`** desplaza la imagen hacia la izquierda.
 
-**&rsaquo; `--end`** desplaza la imagen hacia la derecha.
+**&rsaquo; `--start`** desplaza la imagen hacia la derecha.
