@@ -220,6 +220,6 @@ Usa la siguiente estructura para crear un carrusel e incluir un banner:
 
 ##### Posición
 
-**&rsaquo; `--end`** desplaza la imagen hacia la izquierda.
+**&rsaquo; `--end`** desplaza la imagen hacia la derecha.
 
-**&rsaquo; `--start`** desplaza la imagen hacia la derecha.
+**&rsaquo; `--start`** desplaza la imagen hacia la izquierda.
