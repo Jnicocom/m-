@@ -1,4 +1,4 @@
-**m-** es una librería CSS/JS que facilita la maquetación de contenidos para la web de Movistar Colombia.
+**m-** es una librería CSS/JS creada por [Jnico](https://twitter.com/Jnicocom "Jnico's Twitter") que facilita la maquetación de contenidos para la web de Movistar Colombia.
 
 # ¿Qué necesitas crear?
 
