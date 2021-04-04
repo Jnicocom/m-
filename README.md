@@ -43,7 +43,9 @@ Copia y pega la siguiente estructura para crear un carrusel e incluir un banner:
 | [Bullet](#bullet-carousel "Bullet") | m-carosule__bullet |
 | [Button](#button-carousel "Button") | m-carousel__button |
 
-## Carousel
+------------
+
+### Carousel
 
 **&rsaquo; `m-carousel`** crea un carrusel.
 
@@ -57,13 +59,17 @@ Copia y pega la siguiente estructura para crear un carrusel e incluir un banner:
 
 **&rsaquo; `--debug`** habilita el modo debug.
 
-## Banner (carousel)
+------------
+
+### Banner (carousel)
 
 **`m-carousel__banner`** crea un banner.
 
 * Debe crearse como hijo inmediado de un `m-carousel`.
 
-## Block (carousel)
+------------
+
+### Block (carousel)
 
 **&rsaquo; `m-carousel__block`** crea un bloque.
 
@@ -100,7 +106,9 @@ Copia y pega la siguiente estructura para crear un carrusel e incluir un banner:
 
 **&rsaquo; `--buttons`** modifica el bloque para la inclusión exclusiva de botones.
 
-## Text (carousel)
+------------
+
+### Text (carousel)
 
 **&rsaquo; `m-carousel__text`** crea un texto.
 
@@ -124,7 +132,9 @@ Copia y pega la siguiente estructura para crear un carrusel e incluir un banner:
 
 **&rsaquo; `--bold`** aumenta el peso de la letra al máximo.
 
-## Bullet (carousel)
+------------
+
+### Bullet (carousel)
 
 **&rsaquo; `m-carousel__bullet`** crea un bullet.
 
@@ -140,7 +150,9 @@ Copia y pega la siguiente estructura para crear un carrusel e incluir un banner:
 
 **&rsaquo; `--left`** desplaza la imagen hacia la izquierda.
 
-## Button (carousel)
+------------
+
+### Button (carousel)
 
 **&rsaquo; `m-carousel__button`** crea un botón.
 
