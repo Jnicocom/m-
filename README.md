@@ -2,7 +2,7 @@
 
 # Carrusel
 
-Copia y pega la siguiente estructura para crear un carrusel con un banner:
+Copia y pega la siguiente estructura para crear un carrusel e incluir un banner:
 
 ```html
 <div class="m-carousel">
@@ -40,6 +40,8 @@ Copia y pega la siguiente estructura para crear un carrusel con un banner:
 | [Banner](#banner "Banner") | m-carousel__banner |
 | [Block](#block "Block") | m-carousel__block |
 | [Text](#text "Text") | m-carousel__text |
+| [Bullet](http://#bullet "Bullet") | m-carosule__bullet |
+| [Button](#button "Button") | m-carousel__button |
 
 ------------
 
@@ -129,3 +131,33 @@ Copia y pega la siguiente estructura para crear un carrusel con un banner:
 **&rsaquo; `--normal`** aumenta el peso de la letra.
 
 **&rsaquo; `--bold`** aumenta el peso de la letra al máximo.
+
+------------
+
+### Bullet
+
+**&rsaquo; `m-carousel__bullet`** crea un bullet.
+
+* Debe crearse usando la etiqueta `<img>`.
+
+##### Tamaño
+
+**&rsaquo; `--medium`** aumenta el tamaño de la imagen.
+
+##### Posición
+
+**&rsaquo; `--right`** desplaza la imagen hacia la derecha.
+
+**&rsaquo; `--left`** desplaza la imagen hacia la izquierda.
+
+------------
+
+### Button
+
+**&rsaquo; `m-carousel__button`** crea un botón.
+
+* Debe crearse usando la etiqueta `<a>`.
+
+##### Color
+
+**&rsaquo; `--white`** modifica el color del botón a blanco con letra azul oscuro.
