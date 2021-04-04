@@ -5,7 +5,7 @@
 Copia y pega la siguiente estructura para crear un botón:
 
 ```html
-<div class="m-button" data-url="https://www.movistar.co" data-target="_self" data-label="Botón [ingresa el texto del botón]">
+<div class="m-button" data-url="https://www.movistar.co" data-label="Botón [ingresa el texto del botón]">
     Ingresa el texto del botón
 </div>
 ```
@@ -17,6 +17,34 @@ Luego, asigna el atributo `data-category` al padre inmediato `--buttons` del bot
     //m-button
 </div>
 ```
+
+### Elementos de un botón
+
+| Nombre | Clase |
+| :------------ | :------------ |
+| [Button](#button "Button") | m-button |
+
+------------
+
+### Button
+
+**&rsaquo; `m-button`** crea un botón.
+
+* Debe crearse usando la etiqueta `<div>` como hijo inmediato de un `--buttons` con el atributo `data-category`.
+
+##### Estilo
+
+**&rsaquo; `--white`** modifica el fondo del botón a blanco con letra azul oscuro.
+
+**&rsaquo; `--white-2`** modifica el fondo del botón a blanco con letra y borde azul oscuro.
+
+**&rsaquo; `--white-3`** modifica el fondo del botón a blanco con letra y borde azul claro.
+
+**&rsaquo; `--sky-blue`** modifica el fondo del botón a azul claro con letra blanca.
+
+**&rsaquo; `--sky-blue-2`** modifica el fondo del botón a azul claro con letra y borde blanco.
+
+------------
 
 # Carrusel
 
@@ -59,7 +87,6 @@ Copia y pega la siguiente estructura para crear un carrusel e incluir un banner:
 | [Block](#block-carousel "Block") | m-carousel__block |
 | [Text](#text-carousel "Text") | m-carousel__text |
 | [Bullet](#bullet-carousel "Bullet") | m-carosule__bullet |
-| [Button](#button-carousel "Button") | m-carousel__button |
 
 ------------
 
@@ -169,23 +196,3 @@ Copia y pega la siguiente estructura para crear un carrusel e incluir un banner:
 **&rsaquo; `--start`** desplaza la imagen hacia la izquierda.
 
 **&rsaquo; `--end`** desplaza la imagen hacia la derecha.
-
-------------
-
-### Button (carousel)
-
-**&rsaquo; `m-carousel__button`** crea un botón.
-
-* Debe crearse usando la etiqueta `<a>`.
-
-##### Estilo
-
-**&rsaquo; `--white`** modifica el fondo del botón a blanco con letra azul oscuro.
-
-**&rsaquo; `--white-2`** modifica el fondo del botón a blanco con letra y borde azul oscuro.
-
-**&rsaquo; `--white-3`** modifica el fondo del botón a blanco con letra y borde azul claro.
-
-**&rsaquo; `--sky-blue`** modifica el fondo del botón a azul claro con letra blanca.
-
-**&rsaquo; `--sky-blue-2`** modifica el fondo del botón a azul claro con letra y borde blanco.
