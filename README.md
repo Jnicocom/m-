@@ -1,4 +1,4 @@
-**m-** es una librería CSS/JS que facilita la maquetación de contenidos en la web de Movistar Colombia.
+**m-** es una librería CSS/JS que facilita la maquetación de contenidos para la web de Movistar Colombia.
 
 # Carrusel
 
@@ -76,43 +76,6 @@ Copia y pega la siguiente estructura para crear un carrusel con un banner:
 ##### Plantilla
 
 **&rsaquo; `--hero`** modifica el bloque para la inclusión exclusiva de copys primarios y secundarios.
-
-* Debe contener únicamente `m-carousel__text` hasta un máximo de dos.
-
-* Si existe un único `m-carousel__text` este será el copy primario.
-
-```html
-<div class="m-carousel__block">
-  <div class="m-carousel__text">
-      Copy primario
-  </div>
-</div>
-```
-
-* Si existen dos `m-carousel__text` el primero será el copy secundario y el segundo el primario.
-
-```html
-<div class="m-carousel__block">
-  <div class="m-carousel__text">
-      Copy secundario
-  </div>
-  <div class="m-carousel__text">
-      Copy primario
-  </div>
-</div>
-```
-
-**&rsaquo; `--buttons`** modifica el bloque para la inclusión exclusiva de botones.
-
-------------
-
-### Bloque
-
-**&rsaquo; `m-carousel__block`** crea un bloque.
-
-* Debe crearse como hijo inmediado de un `m-carousel__banner`.
-
-**&rsaquo; `--hero`** modifica el bloque para la inclusión exclusiva de *copys* primarios y secundarios.
 
 * Debe contener únicamente `m-carousel__text` hasta un máximo de dos.
 
