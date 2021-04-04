@@ -81,7 +81,7 @@ Copia y pega la siguiente estructura para crear un carrusel e incluir un banner:
 
 * Debe contener únicamente `m-carousel__text` hasta un máximo de dos.
 
-* Si existe un único `m-carousel__text` este será el copy primario.
+> Si existe un único `m-carousel__text` este será el copy primario.
 
 ```html
 <div class="m-carousel__block">
@@ -91,7 +91,7 @@ Copia y pega la siguiente estructura para crear un carrusel e incluir un banner:
 </div>
 ```
 
-* Si existen dos `m-carousel__text` el primero será el copy secundario y el segundo el primario.
+> Si existen dos `m-carousel__text` el primero será el copy secundario y el segundo el primario.
 
 ```html
 <div class="m-carousel__block">
