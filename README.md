@@ -7,7 +7,7 @@ Copia y pega la siguiente estructura para crear un carrusel e incluir un banner:
 ```html
 <div class="m-carousel">
     <div class="m-carousel__banner">
-        <div class="m-carousel__block m-carousel__block--hero">
+        <div class="m-carousel__block --hero">
             <div class="m-carousel__text">
                 Ingresa el copy secundario del banner
             </div>
@@ -23,7 +23,7 @@ Copia y pega la siguiente estructura para crear un carrusel e incluir un banner:
                     <a class="m-carousel__button">Botón 1</a>
                     <a class="m-carousel__button">Botón 2</a>
                 </div>
-                <span class="m-carousel__text m-carousel__text--extra-small">
+                <span class="m-carousel__text --smaller">
                     Aplican términos y condiciones
                 </span>
             </div>
@@ -84,7 +84,7 @@ Copia y pega la siguiente estructura para crear un carrusel e incluir un banner:
 > Si existe un único `m-carousel__text` este será el copy primario.
 
 ```html
-<div class="m-carousel__block">
+<div class="m-carousel__block --hero">
   <div class="m-carousel__text">
       Copy primario
   </div>
@@ -94,7 +94,7 @@ Copia y pega la siguiente estructura para crear un carrusel e incluir un banner:
 > Si existen dos `m-carousel__text` el primero será el copy secundario y el segundo el primario.
 
 ```html
-<div class="m-carousel__block">
+<div class="m-carousel__block --hero">
   <div class="m-carousel__text">
       Copy secundario
   </div>
