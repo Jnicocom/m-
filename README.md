@@ -9,7 +9,7 @@
 
 # Botón
 
-Copia y pega la siguiente estructura para crear un botón:
+Usa la siguiente estructura para crear un botón:
 
 ```html
 <div class="m-button" data-url="https://www.movistar.co" data-label="Botón [ingresa el texto del botón]">
@@ -47,21 +47,21 @@ Luego, asigna el atributo `data-category` al padre inmediato `--buttons` del bot
 
 ##### Estilo
 
-**&rsaquo; `--white`** modifica el fondo del botón a blanco con letra azul oscuro.
+**&rsaquo; `--white`** modifica el fondo del botón a blanco con texto azul oscuro.
 
-**&rsaquo; `--white-2`** modifica el fondo del botón a blanco con letra y borde azul oscuro.
+**&rsaquo; `--white-2`** modifica el fondo del botón a blanco con texto y borde azul oscuro.
 
-**&rsaquo; `--white-3`** modifica el fondo del botón a blanco con letra y borde azul claro.
+**&rsaquo; `--white-3`** modifica el fondo del botón a blanco con texto y borde azul claro.
 
-**&rsaquo; `--sky-blue`** modifica el fondo del botón a azul claro con letra blanca.
+**&rsaquo; `--blue-light`** modifica el fondo del botón a azul claro con texto blanco.
 
-**&rsaquo; `--sky-blue-2`** modifica el fondo del botón a azul claro con letra y borde blanco.
+**&rsaquo; `--blue-light-2`** modifica el fondo del botón a azul claro con texto y borde blanco.
 
 ------------
 
 # Carrusel
 
-Copia y pega la siguiente estructura para crear un carrusel e incluir un banner:
+Usa la siguiente estructura para crear un carrusel e incluir un banner:
 
 ```html
 <div class="m-carousel">
@@ -171,6 +171,14 @@ Copia y pega la siguiente estructura para crear un carrusel e incluir un banner:
 ### Text (carousel)
 
 **&rsaquo; `m-carousel__text`** crea un texto.
+
+##### Estilo
+
+**&rsaquo; `--blue-light`** modifica el color del texto a azul claro.
+
+**&rsaquo; `--blue-dark`** modifica el color del texto a azul oscuro.
+
+**&rsaquo; `--gray-dark`** modifica el color del texto a gris oscuro.
 
 ##### Tamaño
 
