@@ -2,8 +2,8 @@
 
 # ¿Qué necesitas crear?
 
-* [Botón](#botón "Botón")
-* [Carrusel](#carrusel "Carrusel")
+- [x] [Botón](#botón "Botón")
+- [x] [Carrusel](#carrusel "Carrusel")
 
 ------------
 
