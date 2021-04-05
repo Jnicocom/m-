@@ -12,8 +12,8 @@
 Usa la siguiente estructura para crear un botón:
 
 ```html
-<div class="m-button" data-url="https://www.movistar.co" data-label="Botón [ingresa el texto del botón]">
-    Ingresa el texto del botón
+<div class="m-button" data-href="https://www.movistar.co" data-label="[Texto del botón]">
+    Texto del botón
 </div>
 ```
 
@@ -39,7 +39,7 @@ Luego, asigna el atributo `data-category` al padre inmediato `--buttons` del bot
 
 * <ins>Debe</ins> crearse usando la etiqueta `<div>` como hijo inmediato de un `--buttons` con el atributo `data-category`.
 
-* <ins>Debe</ins> asignarse el atributo `data-url` que define la ruta a la que dirige el botón.
+* <ins>Debe</ins> asignarse el atributo `data-href` que define la ruta a la que dirige el botón.
 
 * <ins>Debe</ins> asignarse el atributo `data-label` que define el label y el action del dataLayer.
 
@@ -79,8 +79,8 @@ Usa la siguiente estructura para crear un carrusel e incluir un banner:
             </div>
             <div class="m-carousel__block">
                 <div class="m-carousel__block --buttons" data-category="movistarco - home - carrusel">
-                    <div class="m-button" data-url="https://www.movistar.co" data-label="Botón [Botón 1]">Botón 1</div>
-                    <div class="m-button" data-url="https://www.movistar.co" data-label="Botón [Botón 2]">Botón 2</div>
+                    <div class="m-button" data-href="https://www.movistar.co" data-label="[Texto del botón]">Texto del botón</div>
+                    <div class="m-button" data-href="https://www.movistar.co" data-label="[Texto del botón]">Texto del botón</div>
                 </div>
                 <span class="m-carousel__text --smaller">
                     Aplican términos y condiciones
