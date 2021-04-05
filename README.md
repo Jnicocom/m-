@@ -78,9 +78,9 @@ Usa la siguiente estructura para crear un carrusel e incluir un banner:
                 <img class="m-carousel__bullet" src="" alt="">
             </div>
             <div class="m-carousel__block">
-                <div class="m-carousel__block">
-                    <a class="m-carousel__button">Botón 1</a>
-                    <a class="m-carousel__button">Botón 2</a>
+                <div class="m-carousel__block --buttons">
+                    <a class="m-button">Botón 1</a>
+                    <a class="m-button">Botón 2</a>
                 </div>
                 <span class="m-carousel__text --smaller">
                     Aplican términos y condiciones
