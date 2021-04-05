@@ -79,8 +79,8 @@ Usa la siguiente estructura para crear un carrusel e incluir un banner:
             </div>
             <div class="m-carousel__block">
                 <div class="m-carousel__block --buttons">
-                    <a class="m-button">Botón 1</a>
-                    <a class="m-button">Botón 2</a>
+                    <div class="m-button" data-url="https://www.movistar.co" data-label="Botón [Botón 1]">Botón 1</div>
+                    <div class="m-button" data-url="https://www.movistar.co" data-label="Botón [Botón 2]">Botón 2</div>
                 </div>
                 <span class="m-carousel__text --smaller">
                     Aplican términos y condiciones
