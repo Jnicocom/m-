@@ -17,10 +17,10 @@ Usa la siguiente estructura para crear un botón:
 </div>
 ```
 
-Luego, asigna el atributo `data-category` al padre inmediato `--buttons` del botón, por ejemplo:
+Luego, asigna el atributo `data-category` al padre inmediato `m--buttons` del botón, por ejemplo:
 
 ```html
-<div class="m-carousel__block --buttons" data-category="movistarco - home - carrusel">
+<div class="m-carousel__block m--buttons" data-category="movistarco - home - carrusel">
     //m-button
 </div>
 ```
@@ -37,7 +37,7 @@ Luego, asigna el atributo `data-category` al padre inmediato `--buttons` del bot
 
 **&rsaquo; `m-button`** crea un botón.
 
-* <ins>Debe</ins> crearse usando la etiqueta `<div>` como hijo inmediato de un `--buttons` con el atributo `data-category`.
+* <ins>Debe</ins> crearse usando la etiqueta `<div>` como hijo inmediato de un `m--buttons` con el atributo `data-category`.
 
 * <ins>Debe</ins> asignarse el atributo `data-href` que define la ruta a la que dirige el botón.
 
@@ -47,15 +47,15 @@ Luego, asigna el atributo `data-category` al padre inmediato `--buttons` del bot
 
 ##### Estilo
 
-**&rsaquo; `--white`** modifica el fondo del botón a blanco con texto azul oscuro.
+**&rsaquo; `m--white`** modifica el fondo del botón a blanco con texto azul oscuro.
 
-**&rsaquo; `--white-2`** modifica el fondo del botón a blanco con texto y borde azul oscuro.
+**&rsaquo; `m--white-2`** modifica el fondo del botón a blanco con texto y borde azul oscuro.
 
-**&rsaquo; `--white-3`** modifica el fondo del botón a blanco con texto y borde azul claro.
+**&rsaquo; `m--white-3`** modifica el fondo del botón a blanco con texto y borde azul claro.
 
-**&rsaquo; `--blue-light`** modifica el fondo del botón a azul claro con texto blanco.
+**&rsaquo; `m--blue-light`** modifica el fondo del botón a azul claro con texto blanco.
 
-**&rsaquo; `--blue-light-2`** modifica el fondo del botón a azul claro con texto y borde blanco.
+**&rsaquo; `m--blue-light-2`** modifica el fondo del botón a azul claro con texto y borde blanco.
 
 ------------
 
@@ -66,7 +66,7 @@ Usa la siguiente estructura para crear un carrusel e incluir un banner:
 ```html
 <div class="m-carousel">
     <div class="m-carousel__banner">
-        <div class="m-carousel__block --hero">
+        <div class="m-carousel__block m--hero">
             <div class="m-carousel__text">
                 Ingresa el copy secundario del banner
             </div>
@@ -78,11 +78,11 @@ Usa la siguiente estructura para crear un carrusel e incluir un banner:
                 <img class="m-carousel__bullet" src="" alt="">
             </div>
             <div class="m-carousel__block">
-                <div class="m-carousel__block --buttons" data-category="movistarco - home - carrusel">
+                <div class="m-carousel__block m--buttons" data-category="movistarco - home - carrusel">
                     <div class="m-button" data-href="https://www.movistar.co" data-label="[Texto del botón]">Texto del botón</div>
                     <div class="m-button" data-href="https://www.movistar.co" data-label="[Texto del botón]">Texto del botón</div>
                 </div>
-                <span class="m-carousel__text --smaller">
+                <span class="m-carousel__text m--smaller">
                     Aplican términos y condiciones
                 </span>
             </div>
@@ -111,11 +111,11 @@ Usa la siguiente estructura para crear un carrusel e incluir un banner:
 
 ##### Tamaño
 
-**&rsaquo; `--small`** reduce la altura del carrusel y ajusta sus elementos.
+**&rsaquo; `m--small`** reduce la altura del carrusel y ajusta sus elementos.
 
 ##### Desarrollo
 
-**&rsaquo; `--debug`** habilita el modo debug.
+**&rsaquo; `m--debug`** habilita el modo debug.
 
 ------------
 
@@ -135,14 +135,14 @@ Usa la siguiente estructura para crear un carrusel e incluir un banner:
 
 ##### Plantilla
 
-**&rsaquo; `--hero`** modifica el bloque para la inclusión exclusiva de copys primarios y secundarios.
+**&rsaquo; `m--hero`** modifica el bloque para la inclusión exclusiva de copys primarios y secundarios.
 
 * <ins>Debe</ins> contener únicamente `m-carousel__text` hasta un máximo de dos.
 
 > Si existe un único `m-carousel__text` este será el copy primario.
 
 ```html
-<div class="m-carousel__block --hero">
+<div class="m-carousel__block m--hero">
   <div class="m-carousel__text">
       Copy primario
   </div>
@@ -152,7 +152,7 @@ Usa la siguiente estructura para crear un carrusel e incluir un banner:
 > Si existen dos `m-carousel__text` el primero será el copy secundario y el segundo el primario.
 
 ```html
-<div class="m-carousel__block --hero">
+<div class="m-carousel__block m--hero">
   <div class="m-carousel__text">
       Copy secundario
   </div>
@@ -162,7 +162,7 @@ Usa la siguiente estructura para crear un carrusel e incluir un banner:
 </div>
 ```
 
-**&rsaquo; `--buttons`** modifica el bloque para la inclusión exclusiva de botones.
+**&rsaquo; `m--buttons`** modifica el bloque para la inclusión exclusiva de botones.
 
 * **Debe contener únicamente `m-button` hasta un máximo de dos.
 
@@ -174,37 +174,37 @@ Usa la siguiente estructura para crear un carrusel e incluir un banner:
 
 ##### Estilo
 
-**&rsaquo; `--blue-light`** modifica el color del texto a azul claro.
+**&rsaquo; `m--blue-light`** modifica el color del texto a azul claro.
 
-**&rsaquo; `--blue-dark`** modifica el color del texto a azul oscuro.
+**&rsaquo; `m--blue-dark`** modifica el color del texto a azul oscuro.
 
-**&rsaquo; `--gray-dark`** modifica el color del texto a gris oscuro.
+**&rsaquo; `m--gray-dark`** modifica el color del texto a gris oscuro.
 
 ##### Tamaño
 
-**&rsaquo; `--smaller`** reduce el tamaño del texto al máximo.
+**&rsaquo; `m--smaller`** reduce el tamaño del texto al máximo.
 
-**&rsaquo; `--small`** reduce el tamaño del texto.
+**&rsaquo; `m--small`** reduce el tamaño del texto.
 
-**&rsaquo; `--medium`** aumenta el tamaño del texto.
+**&rsaquo; `m--medium`** aumenta el tamaño del texto.
 
-**&rsaquo; `--large`** aumenta el tamaño del texto.
+**&rsaquo; `m--large`** aumenta el tamaño del texto.
 
-**&rsaquo; `--larger`** aumenta el tamaño del texto al máximo.
+**&rsaquo; `m--larger`** aumenta el tamaño del texto al máximo.
 
 ##### Peso (grosor)
 
-**&rsaquo; `--lighter`** reduce el peso del texto al máximo.
+**&rsaquo; `m--lighter`** reduce el peso del texto al máximo.
 
-**&rsaquo; `--normal`** aumenta el peso del texto.
+**&rsaquo; `m--normal`** aumenta el peso del texto.
 
-**&rsaquo; `--bold`** aumenta el peso del texto al máximo.
+**&rsaquo; `m--bold`** aumenta el peso del texto al máximo.
 
 ##### Alineación
 
-**&rsaquo; `--right`** alinea el texto a la derecha.
+**&rsaquo; `m--right`** alinea el texto a la derecha.
 
-**&rsaquo; `--left`** alinea el texto a la izquierda.
+**&rsaquo; `m--left`** alinea el texto a la izquierda.
 
 ------------
 
@@ -216,10 +216,10 @@ Usa la siguiente estructura para crear un carrusel e incluir un banner:
 
 ##### Tamaño
 
-**&rsaquo; `--medium`** aumenta el tamaño de la imagen.
+**&rsaquo; `m--medium`** aumenta el tamaño de la imagen.
 
 ##### Posición
 
-**&rsaquo; `--end`** desplaza la imagen hacia la derecha.
+**&rsaquo; `m--end`** desplaza la imagen hacia la derecha.
 
-**&rsaquo; `--start`** desplaza la imagen hacia la izquierda.
+**&rsaquo; `m--start`** desplaza la imagen hacia la izquierda.
