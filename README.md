@@ -21,7 +21,7 @@ Luego, asigna el atributo `data-category` al padre inmediato `m--buttons` del bo
 
 ```html
 <div class="m-carousel__block m--buttons" data-category="movistarco - home - carrusel">
-    //m-button
+    <!-- m-button -->
 </div>
 ```
 
@@ -68,10 +68,10 @@ Usa la siguiente estructura para crear un carrusel e incluir un slide:
     <div class="m-carousel__slide">
         <div class="m-carousel__block m--hero">
             <div class="m-carousel__text">
-                Ingresa el copy secundario del slide
+                Copy secundario del slide
             </div>
             <div class="m-carousel__text">
-                Ingresa el copy primario del slide y usa br <br>
+                Copy primario del slide; usa br <br>
                 para añadir saltos de línea
             </div>
             <div class="m-carousel__block">
@@ -144,7 +144,7 @@ Usa la siguiente estructura para crear un carrusel e incluir un slide:
 ```html
 <div class="m-carousel__slide-wrap --mi-modificador-personalizado-wrap"> <!-- wraps automåticos -->
     <div class="m-carousel__slide --mi-modificador-personalizado">
-        //m-carousel__block
+        <!-- m-carousel__block -->
     </div>
 </div>
 ```
