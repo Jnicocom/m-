@@ -61,17 +61,17 @@ Luego, asigna el atributo `data-category` al padre inmediato `m--buttons` del bo
 
 # Carrusel
 
-Usa la siguiente estructura para crear un carrusel e incluir un banner:
+Usa la siguiente estructura para crear un carrusel e incluir un slide:
 
 ```html
 <div class="m-carousel">
-    <div class="m-carousel__banner">
+    <div class="m-carousel__slide">
         <div class="m-carousel__block m--hero">
             <div class="m-carousel__text">
-                Ingresa el copy secundario del banner
+                Ingresa el copy secundario del slide
             </div>
             <div class="m-carousel__text">
-                Ingresa el copy primario del banner y usa br <br>
+                Ingresa el copy primario del slide y usa br <br>
                 para añadir saltos de línea
             </div>
             <div class="m-carousel__block">
@@ -96,7 +96,7 @@ Usa la siguiente estructura para crear un carrusel e incluir un banner:
 | Nombre | Clase |
 | :------------ | :------------ |
 | [Carousel](#carousel "Carousel") | m-carousel |
-| [Banner](#banner-carousel "Banner") | m-carousel__banner |
+| [Slide](#slide-carousel "Slide") | m-carousel__slide |
 | [Block](#block-carousel "Block") | m-carousel__block |
 | [Text](#text-carousel "Text") | m-carousel__text |
 | [Bullet](#bullet-carousel "Bullet") | m-carosule__bullet |
@@ -107,7 +107,7 @@ Usa la siguiente estructura para crear un carrusel e incluir un banner:
 
 **&rsaquo; `m-carousel`** crea un carrusel.
 
-* <ins>Debe</ins> contener exclusivamente `m-carousel__banner`.
+* <ins>Debe</ins> contener exclusivamente `m-carousel__slide`.
 
 ##### Tamaño
 
@@ -119,9 +119,9 @@ Usa la siguiente estructura para crear un carrusel e incluir un banner:
 
 ------------
 
-### Banner (carousel)
+### Slide (carousel)
 
-**`m-carousel__banner`** crea un banner.
+**`m-carousel__slide`** crea un slide.
 
 * <ins>Debe</ins> crearse como hijo inmediado de un `m-carousel`.
 
@@ -131,7 +131,7 @@ Usa la siguiente estructura para crear un carrusel e incluir un banner:
 
 **&rsaquo; `m-carousel__block`** crea un bloque.
 
-* <ins>Debe</ins> crearse como hijo inmediado de un `m-carousel__banner`.
+* <ins>Debe</ins> crearse como hijo inmediado de un `m-carousel__slide`.
 
 ##### Plantilla
 
