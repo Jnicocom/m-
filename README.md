@@ -113,7 +113,9 @@ Usa la siguiente estructura para crear un carrusel e incluir un slide:
 
 **&rsaquo; `m--small`** reduce la altura del carrusel y ajusta sus elementos.
 
-##### Desarrollo
+##### Utilidad
+
+**&rsaquo; `m--custom-slick`** habilita la creación de un slick personalizado.
 
 **&rsaquo; `m--debug`** habilita el modo debug.
 
@@ -125,10 +127,10 @@ Usa la siguiente estructura para crear un carrusel e incluir un slide:
 
 * <ins>Debe</ins> crearse como hijo inmediado de un `m-carousel`.
 
-> Cada `m-carousel__slide` y su modificador personalizado posee un wrap de forma automática, **no** se debe incluir de forma manual, por ejemplo:
+> Cada `m-carousel__slide` y su modificador personalizado posee un wrap de forma automática, por ejemplo:
 
 ```html
-<div class="m-carousel__slide-wrap --mi-modificador-personalizado-wrap">
+<div class="m-carousel__slide-wrap --mi-modificador-personalizado-wrap"> <!-- wraps automåticos -->
     <div class="m-carousel__slide --mi-modificador-personalizado">
         //m-carousel__block
     </div>
