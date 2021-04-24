@@ -115,7 +115,19 @@ Usa la siguiente estructura para crear un carrusel e incluir un slide:
 
 ##### Utilidad
 
-**&rsaquo; `m--custom-slick`** habilita la creación de un slick personalizado.
+**&rsaquo; `m--custom-slick`** habilita la creación de un slick personalizado, por ejemplo:
+
+```html
+<div class="m-carousel m--custom-slick --mi-carrusel">
+    <!-- m-carousel__slider -->
+</div>
+
+<script>
+    $('.--mi-carrusel').slick({
+        //...
+    });
+</script>
+```
 
 **&rsaquo; `m--debug`** habilita el modo debug.
 
