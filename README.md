@@ -130,7 +130,7 @@ Usa la siguiente estructura para crear un carrusel e incluir un slide:
 ```html
 <div class="m-carousel__slide-wrap --mi-modificador-personalizado-wrap">
     <div class="m-carousel__slide --mi-modificador-personalizado">
-        //...
+        //m-carousel__block
     </div>
 </div>
 ```
