@@ -74,18 +74,18 @@ Usa la siguiente estructura para crear un carrusel e incluir un slide:
                 Copy primario del slide; usa br <br>
                 para añadir saltos de línea
             </div>
-            <div class="m-carousel__block">
-                <img class="m-carousel__bullet" src="" alt="">
+        </div>
+        <div class="m-carousel__block">
+            <img class="m-carousel__bullet" src="" alt="">
+        </div>
+        <div class="m-carousel__block">
+            <div class="m-carousel__block m--buttons" data-category="movistarco - home - carrusel">
+                <div class="m-button" data-href="https://www.movistar.co" data-label="[Texto del botón]">Texto del botón</div>
+                <div class="m-button" data-href="https://www.movistar.co" data-label="[Texto del botón]">Texto del botón</div>
             </div>
-            <div class="m-carousel__block">
-                <div class="m-carousel__block m--buttons" data-category="movistarco - home - carrusel">
-                    <div class="m-button" data-href="https://www.movistar.co" data-label="[Texto del botón]">Texto del botón</div>
-                    <div class="m-button" data-href="https://www.movistar.co" data-label="[Texto del botón]">Texto del botón</div>
-                </div>
-                <span class="m-carousel__text m--smaller">
-                    Aplican términos y condiciones
-                </span>
-            </div>
+            <span class="m-carousel__text m--smaller">
+                Aplican términos y condiciones
+            </span>
         </div>
     </div>
 </div>
