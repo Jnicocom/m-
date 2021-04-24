@@ -125,11 +125,11 @@ Usa la siguiente estructura para crear un carrusel e incluir un slide:
 
 * <ins>Debe</ins> crearse como hijo inmediado de un `m-carousel`.
 
-> Cada slide posee un wrap creado de forma automática, por ejemplo:
+> Cada `m-carousel__slide` y su modificador personalizado posee un wrap creado de forma automática, por ejemplo:
 
 ```html
-<div class="m-carousel__slide-wrap --mi-banner-personalizado-wrap">
-   <div class="m-carousel__slide --mi-banner-personalizado">
+<div class="m-carousel__slide-wrap --mi-modificador-personalizado-wrap">
+   <div class="m-carousel__slide --mi-modificador-personalizado">
      ...
    </div>
 </div>
