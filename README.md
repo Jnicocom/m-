@@ -155,7 +155,8 @@ Usa la siguiente estructura para crear un carrusel e incluir un slide:
 
 **&rsaquo; `m-carousel__block`** crea un bloque.
 
-* <ins>Debe</ins> crearse como hijo inmediado de un `m-carousel__slide`.
+* <ins>La primera instancia debe</ins> crearse como hijo inmediado de un `m-carousel__slide`.
+* Puede contener otros `m-carousel__block`.
 
 ##### Plantilla
 
@@ -188,7 +189,7 @@ Usa la siguiente estructura para crear un carrusel e incluir un slide:
 
 **&rsaquo; `m--buttons`** modifica el bloque para la inclusión exclusiva de botones.
 
-* **Debe contener únicamente `m-button` hasta un máximo de dos.
+* <ins>Debe</ins> contener únicamente `m-button` hasta un máximo de dos.
 
 ------------
 
