@@ -129,9 +129,9 @@ Usa la siguiente estructura para crear un carrusel e incluir un slide:
 
 ```html
 <div class="m-carousel__slide-wrap --mi-modificador-personalizado-wrap">
-  <div class="m-carousel__slide --mi-modificador-personalizado">
-      ...
-  </div>
+    <div class="m-carousel__slide --mi-modificador-personalizado">
+        ...
+    </div>
 </div>
 ```
 
@@ -153,9 +153,9 @@ Usa la siguiente estructura para crear un carrusel e incluir un slide:
 
 ```html
 <div class="m-carousel__block m--hero">
-  <div class="m-carousel__text">
-      Copy primario
-  </div>
+    <div class="m-carousel__text">
+        Copy primario
+    </div>
 </div>
 ```
 
@@ -163,12 +163,12 @@ Usa la siguiente estructura para crear un carrusel e incluir un slide:
 
 ```html
 <div class="m-carousel__block m--hero">
-   <div class="m-carousel__text">
-      Copy secundario
-  </div>
-  <div class="m-carousel__text">
-      Copy primario
-  </div>
+    <div class="m-carousel__text">
+        Copy secundario
+    </div>
+    <div class="m-carousel__text">
+        Copy primario
+    </div>
 </div>
 ```
 
