@@ -104,6 +104,7 @@ Usa la siguiente estructura para crear un carrusel e incluir un slide:
 | [Block](#block-carousel "Block") | m-carousel__block |
 | [Text](#text-carousel "Text") | m-carousel__text |
 | [Bullet](#bullet-carousel "Bullet") | m-carosule__bullet |
+| [Callback](#callback-carousel "Callback") | m-carosule__callback |
 
 ------------
 
@@ -141,7 +142,7 @@ Usa la siguiente estructura para crear un carrusel e incluir un slide:
 
 ### Slide (carousel)
 
-**`m-carousel__slide`** crea un slide.
+**&rsaquo; `m-carousel__slide`** crea un slide.
 
 * <ins>Debe</ins> crearse como hijo inmediado de un `m-carousel`.
 
@@ -254,3 +255,11 @@ Usa la siguiente estructura para crear un carrusel e incluir un slide:
 **&rsaquo; `m--end`** desplaza la imagen hacia la derecha.
 
 **&rsaquo; `m--start`** desplaza la imagen hacia la izquierda.
+
+------------
+
+### Callback (carousel)
+
+**&rsaquo; `m-carousel__callback`** crea un callback.
+
+* <ins>Debe</ins> crearse usando la etiqueta `<iframe>`.
