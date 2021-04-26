@@ -113,7 +113,7 @@ Usa la siguiente estructura para crear un carrusel e incluir un slide:
 
 **&rsaquo; `m--small`** reduce la altura del carrusel y ajusta sus elementos.
 
-##### Utilidad
+##### Plantilla
 
 **&rsaquo; `m--custom-slick`** habilita la creación de un slick personalizado, por ejemplo:
 
@@ -128,6 +128,8 @@ Usa la siguiente estructura para crear un carrusel e incluir un slide:
     });
 </script>
 ```
+
+##### Utilidad
 
 **&rsaquo; `m--debug`** habilita el modo debug.
 
