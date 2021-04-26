@@ -4,6 +4,10 @@
 
 - [x] [Botón](#botón "Botón")
 - [x] [Carrusel](#carrusel "Carrusel")
+- [x] Tab (proximamente)
+- [x] Modal (proximamente)
+- [x] Accordion (proximamente)
+- [x] Descubre API (proximamente)
 
 ------------
 
