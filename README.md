@@ -6,7 +6,7 @@
 - [x] [Carrusel](#carrusel "Carrusel")
 - [x] Tab (próximamente)
 - [x] Modal (próximamente)
-- [x] Accordion (próximamente)
+- [x] Acordión (próximamente)
 - [x] Descubre API (próximamente)
 
 ------------
