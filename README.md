@@ -16,17 +16,9 @@
 Usa la siguiente estructura para crear un botón:
 
 ```html
-<div class="m-button" data-href="https://www.movistar.co" data-label="Texto del botón">
+<a class="m-button" data-layer-copy="Texto del botón">
     Texto del botón
-</div>
-```
-
-Luego, asigna el atributo `data-category` al padre inmediato `m--buttons` del botón, por ejemplo:
-
-```html
-<div class="m-carousel__block m--buttons" data-category="movistarco - home - carrusel">
-    <!-- m-button -->
-</div>
+</a>
 ```
 
 ### Elementos de un botón
@@ -41,13 +33,9 @@ Luego, asigna el atributo `data-category` al padre inmediato `m--buttons` del bo
 
 **&rsaquo; `m-button`** crea un botón.
 
-* <ins>Debe</ins> crearse usando la etiqueta `<a>` como hijo inmediato de un `m--buttons` con el atributo `data-category`.
+* <ins>Debe</ins> crearse usando la etiqueta `<a>`.
 
-* <ins>Debe</ins> asignarse el atributo `data-href` que define la ruta a la que dirige el botón.
-
-* <ins>Debe</ins> asignarse el atributo `data-label` que define el label y el action del dataLayer.
-
-* Puede asignarse el atributo `data-target` que define cómo será cargada la página al dar clic. `_self` por defecto.
+* <ins>Debe</ins> asignarse el atributo `data-layer-copy` que es igual al texto del botón.
 
 ##### Estilo (color)
 
