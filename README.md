@@ -16,7 +16,7 @@
 Usa la siguiente estructura para crear un botón:
 
 ```html
-<a class="m-button" data-layer-copy="Texto del botón">
+<a class="m-button" href="#" data-layer-copy="Texto del botón">
     Texto del botón
 </a>
 ```
