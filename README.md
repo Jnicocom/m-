@@ -41,7 +41,7 @@ Luego, asigna el atributo `data-category` al padre inmediato `m--buttons` del bo
 
 **&rsaquo; `m-button`** crea un botón.
 
-* <ins>Debe</ins> crearse usando la etiqueta `<div>` como hijo inmediato de un `m--buttons` con el atributo `data-category`.
+* <ins>Debe</ins> crearse usando la etiqueta `<a>` como hijo inmediato de un `m--buttons` con el atributo `data-category`.
 
 * <ins>Debe</ins> asignarse el atributo `data-href` que define la ruta a la que dirige el botón.
 
@@ -49,7 +49,7 @@ Luego, asigna el atributo `data-category` al padre inmediato `m--buttons` del bo
 
 * Puede asignarse el atributo `data-target` que define cómo será cargada la página al dar clic. `_self` por defecto.
 
-##### Estilo
+##### Estilo (color)
 
 **&rsaquo; `m--white`** modifica el fondo del botón a blanco con texto azul oscuro.
 
@@ -60,6 +60,12 @@ Luego, asigna el atributo `data-category` al padre inmediato `m--buttons` del bo
 **&rsaquo; `m--blue-light`** modifica el fondo del botón a azul claro con texto blanco.
 
 **&rsaquo; `m--blue-light-2`** modifica el fondo del botón a azul claro con texto y borde blanco.
+
+**&rsaquo; `m--green-light`** modifica el fondo del botón a verde claro con texto blanco.
+
+##### Estilo (ícono)
+
+**&rsaquo; `m--icon-call-center`** añade el ícono "call center" al botón.
 
 ------------
 
