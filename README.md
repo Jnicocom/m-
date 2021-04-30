@@ -67,6 +67,12 @@ Luego, asigna el atributo `data-category` al padre inmediato `m--buttons` del bo
 
 **&rsaquo; `m--icon-call-center`** añade el ícono "call center" al botón.
 
+**&rsaquo; `m--icon-phone`** añade el ícono "phone" al botón.
+
+##### Estilo (posición del ícono)
+
+**&rsaquo; `m--icon-end`** desplaza el ícono hacia la derecha del botón.
+
 ------------
 
 # Carrusel
