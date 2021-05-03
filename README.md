@@ -84,8 +84,7 @@ Usa la siguiente estructura para crear un carrusel e incluir un slide:
         </div>
         <div class="m-carousel__block">
             <div class="m-carousel__block m--buttons" data-category="movistarco - home - carrusel">
-                <div class="m-button" data-href="https://www.movistar.co" data-label="Texto del botón">Texto del botón</div>
-                <div class="m-button" data-href="https://www.movistar.co" data-label="Texto del botón">Texto del botón</div>
+                <a class="m-button" href="#" data-layer-copy="Texto del botón">Texto del botón</a>
             </div>
             <span class="m-carousel__text m--smaller">
                 Aplican términos y condiciones
@@ -103,8 +102,8 @@ Usa la siguiente estructura para crear un carrusel e incluir un slide:
 | [Slide](#slide-carousel "Slide") | m-carousel__slide |
 | [Block](#block-carousel "Block") | m-carousel__block |
 | [Text](#text-carousel "Text") | m-carousel__text |
-| [Bullet](#bullet-carousel "Bullet") | m-carosule__bullet |
-| [Callback](#callback-carousel "Callback") | m-carosule__callback |
+| [Bullet](#bullet-carousel "Bullet") | m-carousel__bullet |
+| [Callback](#callback-carousel "Callback") | m-carousel__callback |
 
 ------------
 
