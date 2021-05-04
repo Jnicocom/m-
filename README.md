@@ -21,13 +21,13 @@ Usa la siguiente estructura para crear un botón:
 </a>
 ```
 
-#### Elementos
+###### Elementos
 
 | Nombre | Clase |
 | :------------ | :------------ |
 | [Button](#button "Button") | m-button |
 
-#### Modificadores
+###### Modificadores
 
 | Nombre | Clase |
 | :------------ | :------------ |
