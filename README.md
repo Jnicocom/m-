@@ -114,7 +114,7 @@ Usa la siguiente estructura para crear un carrusel e incluir un slide:
 
 ------------
 
-#### Carousel (elemento)
+#### m-carousel (elemento)
 
 **&rsaquo; `m-carousel`** crea un carrusel.
 
@@ -128,7 +128,7 @@ Usa la siguiente estructura para crear un carrusel e incluir un slide:
 | [Size](#size "Size") | m--size |
 | [Debug](#debug "Debug") | m--debug |
 
-#### Template (modificador)
+#### m--template (modificador)
 
 **&rsaquo; `m--template-custom-slick`** habilita la creación de un slick personalizado, por ejemplo:
 
@@ -144,11 +144,11 @@ Usa la siguiente estructura para crear un carrusel e incluir un slide:
 </script>
 ```
 
-#### Size (modificador)
+#### m--size (modificador)
 
 **&rsaquo; `m--size-small`** reduce la altura del carrusel y ajusta sus elementos.
 
-#### Debug (modificador)
+#### m--debug (modificador)
 
 **&rsaquo; `m--debug`** habilita el modo debug.
 
