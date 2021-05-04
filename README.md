@@ -44,7 +44,7 @@ Usa la siguiente estructura para crear un botón:
 
 * <ins>Debe</ins> asignarse el atributo `data-layer-copy` que es igual al texto del botón.
 
-##### Template (modificador)
+#### Template (modificador)
 
 **&rsaquo; `m--template-white`** modifica el fondo del botón a blanco con texto azul oscuro.
 
@@ -58,13 +58,13 @@ Usa la siguiente estructura para crear un botón:
 
 **&rsaquo; `m--template-green-light`** modifica el fondo del botón a verde claro con texto blanco.
 
-##### Icon (modificador)
+#### Icon (modificador)
 
 **&rsaquo; `m--icon-call-center`** añade el ícono "call center" al botón.
 
 **&rsaquo; `m--icon-phone`** añade el ícono "phone" al botón.
 
-##### Icon position (modificador)
+#### Icon position (modificador)
 
 **&rsaquo; `m--icon-position-end`** desplaza el ícono hacia la derecha del botón.
 
