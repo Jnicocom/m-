@@ -21,13 +21,13 @@ Usa la siguiente estructura para crear un botón:
 </a>
 ```
 
-###### Elementos
+###### Elementos de un botón
 
 | Nombre | Clase |
 | :------------ | :------------ |
 | [Button](#button "Button") | m-button |
 
-###### Modificadores
+###### Modificadores de un botón
 
 | Nombre | Clase |
 | :------------ | :------------ |
@@ -101,9 +101,9 @@ Usa la siguiente estructura para crear un carrusel e incluir un slide:
 </div>
 ```
 
-### Elementos de un carrusel
+###### Elementos de un carrusel
 
-| Nombre | Clase |
+| Elemento | Clase |
 | :------------ | :------------ |
 | [Carousel](#carousel "Carousel") | m-carousel |
 | [Slide](#slide-carousel "Slide") | m-carousel__slide |
@@ -114,19 +114,23 @@ Usa la siguiente estructura para crear un carrusel e incluir un slide:
 
 ------------
 
-### Carousel
+#### Carousel (elemento)
 
 **&rsaquo; `m-carousel`** crea un carrusel.
 
 * <ins>Debe</ins> contener exclusivamente `m-carousel__slide`.
 
-##### Tamaño
+###### Modificadores de m-carrusel
 
-**&rsaquo; `m--small`** reduce la altura del carrusel y ajusta sus elementos.
+| Modificador | Clase |
+| :------------ | :------------ |
+| [Template](#template "Template") | m--template |
+| [Size](#size "Size") | m--size |
+| [Debug](#debug "Debug") | m--debug |
 
-##### Plantilla
+#### Template (modificador)
 
-**&rsaquo; `m--custom-slick`** habilita la creación de un slick personalizado, por ejemplo:
+**&rsaquo; `m--template-custom-slick`** habilita la creación de un slick personalizado, por ejemplo:
 
 ```html
 <div class="m-carousel m--custom-slick --mi-carrusel">
@@ -140,13 +144,17 @@ Usa la siguiente estructura para crear un carrusel e incluir un slide:
 </script>
 ```
 
-##### Utilidad
+#### Size (modificador)
+
+**&rsaquo; `m--size-small`** reduce la altura del carrusel y ajusta sus elementos.
+
+#### Debug (modificador)
 
 **&rsaquo; `m--debug`** habilita el modo debug.
 
 ------------
 
-### Slide (carousel)
+### Slide (elemento de m-carousel)
 
 **&rsaquo; `m-carousel__slide`** crea un slide.
 
