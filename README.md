@@ -21,15 +21,22 @@ Usa la siguiente estructura para crear un botón:
 </a>
 ```
 
-### Elementos de un botón
+#### Elementos
 
 | Nombre | Clase |
 | :------------ | :------------ |
 | [Button](#button "Button") | m-button |
 
+#### Modificadores
+
+| Nombre | Clase |
+| :------------ | :------------ |
+| [Template](#template "Template") | m--template |
+| [Icon](#icon "Icon") | m--icon |
+
 ------------
 
-### Button
+#### Button (elemento)
 
 **&rsaquo; `m-button`** crea un botón.
 
@@ -37,29 +44,29 @@ Usa la siguiente estructura para crear un botón:
 
 * <ins>Debe</ins> asignarse el atributo `data-layer-copy` que es igual al texto del botón.
 
-##### Estilo (color)
+##### Template (modificador)
 
-**&rsaquo; `m--white`** modifica el fondo del botón a blanco con texto azul oscuro.
+**&rsaquo; `m--template-white`** modifica el fondo del botón a blanco con texto azul oscuro.
 
-**&rsaquo; `m--white-2`** modifica el fondo del botón a blanco con texto y borde azul oscuro.
+**&rsaquo; `m--template-white-2`** modifica el fondo del botón a blanco con texto y borde azul oscuro.
 
-**&rsaquo; `m--white-3`** modifica el fondo del botón a blanco con texto y borde azul claro.
+**&rsaquo; `m--template-white-3`** modifica el fondo del botón a blanco con texto y borde azul claro.
 
-**&rsaquo; `m--blue-light`** modifica el fondo del botón a azul claro con texto blanco.
+**&rsaquo; `m--template-blue-light`** modifica el fondo del botón a azul claro con texto blanco.
 
-**&rsaquo; `m--blue-light-2`** modifica el fondo del botón a azul claro con texto y borde blanco.
+**&rsaquo; `m--template-blue-light-2`** modifica el fondo del botón a azul claro con texto y borde blanco.
 
-**&rsaquo; `m--green-light`** modifica el fondo del botón a verde claro con texto blanco.
+**&rsaquo; `m--template-green-light`** modifica el fondo del botón a verde claro con texto blanco.
 
-##### Estilo (ícono)
+##### Icon (modificador)
 
 **&rsaquo; `m--icon-call-center`** añade el ícono "call center" al botón.
 
 **&rsaquo; `m--icon-phone`** añade el ícono "phone" al botón.
 
-##### Estilo (posición del ícono)
+##### Icon position (modificador)
 
-**&rsaquo; `m--icon-end`** desplaza el ícono hacia la derecha del botón.
+**&rsaquo; `m--icon-position-end`** desplaza el ícono hacia la derecha del botón.
 
 ------------
 
